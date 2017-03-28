@@ -1,0 +1,2 @@
+type: python3.4
+command: gunicorn -b 0.0.0.0:5000 abrapp.app:app
