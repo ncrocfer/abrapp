@@ -1,2 +1,3 @@
 type: python3.4
+port: 5000
 command: gunicorn -b 0.0.0.0:5000 abrapp.app:app
